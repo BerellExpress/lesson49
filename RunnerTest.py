@@ -19,7 +19,7 @@ class RunnerTest(unittest.TestCase):
         runner2 = main.Runner("Totoshka")
         for i in range(10):
             runner1.run()
-            runner2.run()
+            runner2.walk()
         self.assertEqual(runner1.distance, runner2.distance)
 
 if __name__ == "__main__":
